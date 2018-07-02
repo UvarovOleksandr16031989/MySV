@@ -1,0 +1,14 @@
+.container
+  margin: 0 auto
+  max-width: 1200px
+  padding: 0 10px
+
+@mixin position( $color,$top,$margin,$rotate)
+  color:  $color
+  top: $top
+  margin-left: $margin
+  transform: rotate($rotate)
+
+@mixin font_Play($size)
+  font-family: 'Playfair Display', serif
+  font-size: $size
